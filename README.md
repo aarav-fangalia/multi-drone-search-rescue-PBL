@@ -144,6 +144,10 @@ When required, the system can re-evaluate the situation and assign another suita
 
 ---
 
+## 🏗️ Implementation
+
+The project is implemented as a menu-driven C++ simulation for coordinating multiple UAVs during disaster-response scenarios. It models rescue missions, route planning, drone availability, and priority-based task allocation.
+
 ## 🎯 Project Objectives
 
 1. Develop a simulation for coordinating multiple rescue drones.
