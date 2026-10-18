@@ -9,7 +9,7 @@
 
 using namespace std;
 
-// UAV CLASS
+// Document UAV class`
 
 class UAV {
 private:
