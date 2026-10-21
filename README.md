@@ -204,3 +204,48 @@ The system can be extended in the future with:
 ## ⭐ Project Goal
 
 > To demonstrate how Data Structures and Object-Oriented Programming can be used to coordinate multiple drones efficiently during dynamic disaster response operations.
+
+---
+
+# Project Development Phases
+
+## Phase-I: Project Proposal and Initial Design
+
+Phase-I focused on identifying the problem, defining the project objectives, and preparing the initial design for the Multi-Drone Search & Rescue System.
+
+### Work Completed
+- Defined the problem of coordinating multiple UAVs during disaster-response situations.
+- Finalized the project objectives and scope.
+- Planned a weighted-graph representation for disaster locations and routes.
+- Identified graph algorithms and priority-based mission scheduling as core concepts.
+- Prepared the initial project proposal and documentation.
+
+## Phase-II: System Design and Implementation
+
+Phase-II focuses on developing the core C++ simulation and organizing the system into modules.
+
+### Main Modules
+- **Graph and Path Planning:** Weighted graph, BFS traversal/reachability, and Dijkstra's shortest-path algorithm.
+- **Mission Management:** Priority-based scheduling of rescue missions.
+- **UAV Management:** Tracking drone location, battery level, availability, and status.
+- **Coordinator and Event Handling:** Connecting modules and planning mission reassignment for dynamic events.
+
+### Current Development Focus
+- Implementing and integrating the main modules.
+- Checking mission priority and route feasibility.
+- Testing scenarios involving battery constraints, UAV failure, and blocked routes.
+- Maintaining source code and project documents in GitHub.
+
+## Phase-III: Testing and Finalization
+
+Phase-III will focus on completing remaining features, testing the integrated simulation, validating results, and preparing the final demonstration and report.
+
+### Planned Work
+- Complete and verify the remaining modules.
+- Test route planning and mission allocation under different scenarios.
+- Validate battery constraints, blocked routes, and UAV failure handling.
+- Finalize documentation and prepare the project demonstration.
+
+---
+
+**Note:** Features described as planned or under development will be marked complete only after implementation and testing.
