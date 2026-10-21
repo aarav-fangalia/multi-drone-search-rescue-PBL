@@ -753,10 +753,10 @@ public:
                     completeMission();
                     break;
                 case 0:
-                    cout << "\nSystem shutting down...\n";
+                    cout << "\nSystem shutting down..\n";
                     break;
                 default:
-                    cout << "\nInvalid choice. Please select 0-10.\n";
+                    cout << "\nInvalid choice. Please select 0-10!!\n";
             }
         } while (choice != 0);
     }
